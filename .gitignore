@@ -1,0 +1,33 @@
+# Virtual Environments (Local environment files should not be pushed)
+venv/
+.venv/
+env/
+ENV/
+
+# Python bytecode / Caching
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Large Datasets and Processed splits
+Fake.csv
+True.csv
+processed_data/
+
+# Model Checkpoints (Weights are too large for GitHub)
+saved_models/
+*.pt
+*.pth
+
+# Plot outputs and execution reports
+plots/
+
+# User IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
